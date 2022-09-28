@@ -1,0 +1,4 @@
+- name: Install php
+  yum:
+    name: php
+    state: present

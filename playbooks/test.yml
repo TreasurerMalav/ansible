@@ -1,0 +1,8 @@
+---
+- hosts: web
+  roles:
+    - php
+
+- hosts: web
+  roles: 
+    - httpd
